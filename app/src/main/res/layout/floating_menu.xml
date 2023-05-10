@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@drawable/layout_bg"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+       >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnImage"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            app:cardCornerRadius="75dp"
+            app:cardElevation="8dp"
+            android:layout_marginLeft="6dp">
+
+            <ImageButton
+                android:id="@+id/pickImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#BF59CF"
+                android:src="@drawable/imageb" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnCamera"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/btnImage"
+            app:cardCornerRadius="75dp"
+            app:cardElevation="8dp">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#EC407A"
+                android:src="@drawable/camera_ic" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnLocation"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/btnCamera"
+            app:cardCornerRadius="75dp"
+            app:cardElevation="8dp">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#EEC312"
+                android:src="@drawable/location_ic" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnAudio"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/btnLocation"
+            app:cardCornerRadius="75dp"
+            app:cardElevation="8dp">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0EABF4"
+                android:src="@drawable/mic_ic" />
+        </androidx.cardview.widget.CardView>
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

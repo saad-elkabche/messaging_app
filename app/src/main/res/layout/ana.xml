@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backana"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="260dp"
+            android:minWidth="70dp"
+            android:layout_marginRight="25dp"
+            android:id="@+id/txtAna"
+            android:textSize="17dp"
+            android:text="inijijsiijdijijdijjbdsyhdshudhushdusuhduhushusbdu"
+            android:textStyle="bold"
+            android:layout_marginLeft="7dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="150dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/timeana"
+            android:text="20:00"
+            android:layout_alignEnd="@id/txtAna"
+            android:layout_below="@id/txtAna"/>
+    </RelativeLayout>
+
+</RelativeLayout>

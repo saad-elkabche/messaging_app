@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".discutionActivity"
+    android:background="#8BCCCF">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#019197"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/backToparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/backiconwhite"
+                android:onClick="backtocht"/>
+            <ImageButton
+                android:id="@+id/callaudio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/callicon"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="18dp"
+                android:layout_centerVertical="true"/>
+            <ImageButton
+                android:id="@+id/videoCall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/videoicon"
+                android:layout_toLeftOf="@id/callaudio"
+                android:layout_marginRight="29dp"
+                android:layout_centerVertical="true"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                app:cardCornerRadius="150dp"
+                android:layout_centerVertical="true"
+                app:cardElevation="5dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/cardProfile"
+                android:layout_toRightOf="@id/backToparent"
+                android:layout_marginLeft="8dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/imgUser"
+                    android:src="@drawable/noprofile"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/txtNamerec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="18dp"
+                android:layout_toRightOf="@id/cardProfile"
+                android:fontFamily="@font/alata"
+                android:text="CHAT_APP"
+                android:textColor="@color/white"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RCChat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/sendMessage"
+        android:layout_below="@+id/toolbar" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:paddingLeft="25dp"
+        app:cardCornerRadius="25dp"
+        android:id="@+id/sendMessage"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/cardSend"
+        android:layout_margin="3dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/txtMessage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="3dp"
+                android:backgroundTint="@android:color/transparent"
+                android:hint="Message"
+
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="-50dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/transparent"
+                android:onClick="showFloatingMenu"
+                android:src="@drawable/attache" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+<androidx.cardview.widget.CardView
+    android:layout_margin="4dp"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    app:cardCornerRadius="40dp"
+    android:id="@+id/cardSend"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true">
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/sendicon"
+        android:background="#019197"
+        android:onClick="sendMessage"/>
+</androidx.cardview.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/drawable-v24/backiconwhite.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/drawable/attache.xml" value="0.238" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/drawable/backana.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/drawable/backhow.xml" value="0.1245" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/drawable/camera_ic.xml" value="0.238" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/drawable/cameraicon.xml" value="0.1555" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/drawable/delete_ic.xml" value="0.1465" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.238" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/drawable/imageb.xml" value="0.238" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/drawable/layout_bg.xml" value="0.123" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/drawable/location_ic.xml" value="0.238" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/drawable/mic_ic.xml" value="0.238" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/drawable/microfone.xml" value="0.238" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/layout/activity_chat.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/layout/activity_discution.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/layout/activity_first.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/layout/activity_galery.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/layout/activity_profile.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/layout/activity_set_pass_word.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/layout/activity_set_profile.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/layout/activity_show_picture.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/layout/ana.xml" value="0.24728260869565216" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/layout/button_auto.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/layout/floating_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/layout/fragment_callsfrag.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/layout/fragment_chatfrag.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/layout/how.xml" value="0.24728260869565216" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/layout/item_chat.xml" value="0.11354166666666667" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/layout/media_ana.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/layout/media_howa.xml" value="0.12864583333333332" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/layout/picture.xml" value="0.253125" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/layout/show_users_profile.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/layout/updateprofile.xml" value="0.11197916666666667" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/messagingApp1/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

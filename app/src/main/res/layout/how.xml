@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/backhow">
+
+        <TextView
+            android:id="@+id/txthowa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:maxWidth="260dp"
+            android:minWidth="70dp"
+            android:text="inijijsiijdijijdijjbdsyhdshudhushdusuhduhushusbdu"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/timehowa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txthowa"
+            android:layout_alignEnd="@id/txthowa"
+            android:layout_marginRight="20dp"
+            android:maxWidth="150dp"
+            android:text="20:00" />
+    </RelativeLayout>
+
+</RelativeLayout>

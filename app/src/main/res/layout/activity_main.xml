@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat_App"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imgLogo"
+        android:textColor="#019197"
+        android:id="@+id/txtTitle"/>
+
+    <com.hbb20.CountryCodePicker
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="50dp"
+        app:ccp_autoDetectCountry="true"
+        app:ccp_areaCodeDetectedCountry="true"
+        app:ccp_showFullName="true"
+        app:ccp_showPhoneCode="false"
+        android:layout_below="@id/txtTitle"
+        android:id="@+id/ccp"/>
+
+    <EditText
+        android:id="@+id/txtNumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ccp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="#019197"
+        android:inputType="number"
+        android:maxLength="10"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <android.widget.Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:background="#019197"
+        android:elevation="5dp"
+        android:onClick="SendPass"
+        android:text="send"
+        android:textColor="@color/white" />
+
+    <ProgressBar
+        android:id="@+id/progressBarMain"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#019197"
+        android:visibility="invisible" />
+
+
+
+
+
+</RelativeLayout>

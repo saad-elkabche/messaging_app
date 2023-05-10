@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".setProfileActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="150dp"
+        app:cardElevation="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:id="@+id/cardProfile">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:id="@+id/imgUser"
+            android:src="@drawable/noprofile"/>
+
+    </androidx.cardview.widget.CardView>
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:src="@drawable/cameraicon"
+        android:onClick="pickImage"
+        android:layout_alignBottom="@+id/cardProfile"
+        android:layout_alignEnd="@id/cardProfile"
+        android:layout_marginRight="-18dp"
+       />
+
+    <EditText
+        android:id="@+id/txtuserName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/cardProfile"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="#019197"
+        android:hint="enter your name"
+        android:inputType="textPersonName"
+        android:maxLength="20"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <android.widget.Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtuserName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#019197"
+        android:text="save"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:onClick="setProfile"/>
+
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:id="@+id/progressBarprofile"
+        android:visibility="invisible"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
